@@ -1,5 +1,5 @@
-const Migrations = artifacts.require("Migrations");
+const MemoryToken = artifacts.require("MemoryToken");
 
 module.exports = function(deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(MemoryToken);
 };
